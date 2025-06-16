@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'fourth_screen.dart';
 
 class ThirdScreen extends StatelessWidget {
@@ -39,6 +39,46 @@ class ThirdScreen extends StatelessWidget {
             ),
           ],
         ),
+      ),
+    );
+  }
+}
+
+import 'package:flutter/material.dart';
+
+class ThirdScreen extends StatelessWidget {
+  const ThirdScreen({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text('Favourites', style: TextStyle(color: Colors.green)),
+      ),
+      body: Center(
+        child: Text('Favourites Screen', style: TextStyle(color: Colors.white)),
+      ),
+    );
+  }
+}*/
+
+import 'package:flutter/material.dart';
+
+class ThirdScreen extends StatelessWidget {
+  const ThirdScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text('Favourites', style: TextStyle(color: Colors.green)),
+      ),
+      body: Center(
+        child: Text('Favourites Screen', style: TextStyle(color: Colors.white)),
       ),
     );
   }
